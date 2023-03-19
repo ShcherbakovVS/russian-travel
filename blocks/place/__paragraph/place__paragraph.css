@@ -5,7 +5,7 @@
 }
 
 .place__paragraph:last-of-type {
-    margin: 0;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -13,5 +13,12 @@
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

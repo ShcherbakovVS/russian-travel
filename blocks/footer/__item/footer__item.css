@@ -1,0 +1,21 @@
+.footer__item {
+    display: inline;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer__item:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__item {
+        margin: 0 0 32px;
+        display: block;
+    }
+
+    .footer__item:last-of-type {
+        margin-bottom: 48px;
+    }
+}

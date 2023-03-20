@@ -1,9 +1,7 @@
 .footer__item {
-    display: inline;
     margin-right: 18px;
     text-decoration: none;
     color: #FFF;
-    float: left;
 }
 
 .footer__item:last-of-type {
@@ -12,9 +10,7 @@
 
 @media screen and (max-width: 767px) {
     .footer__item {
-        float: inherit;
         margin: 0 0 32px;
-        display: block;
     }
 
     .footer__item:last-of-type {

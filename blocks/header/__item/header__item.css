@@ -1,7 +1,5 @@
 .header__item {
-    display: inline;
     margin-right: 18px;
-    float: left;
 }
 
 .header__item:last-of-type {
